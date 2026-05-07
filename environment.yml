@@ -1,0 +1,17 @@
+name: egm722-assignment
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - geopandas
+  - cartopy>=0.21
+  - jupyterlab
+  - ipywidgets
+  - rasterio
+  - folium
+  - ipympl
+  - earthaccess
+  - rasterstats
+  - osmnx
+  - shapely
