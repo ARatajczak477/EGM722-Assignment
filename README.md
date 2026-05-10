@@ -61,8 +61,7 @@ jupyter lab
 Run `01_data_download.ipynb`. The first login cell will prompt for your EarthData username and password and store them securely in a `.netrc` file. Subsequent runs will log in automatically.
 
 **You may also need to accept the ASF DAAC data access agreement** the first time you download.
-If the download cell fails with a EULA error, open the link below in your browser, log in with your EarthData account, and click Accept:
-https://urs.earthdata.nasa.gov/approve_app?client_id=BO_n7nTIlMljdvU6CLLpSA
+If the download fails with a EULA error, log in at https://urs.earthdata.nasa.gov, go to **My Profile → Applications**, find Alaska Satellite Facility Data Access, and click **Accept**. Or follow the link shown in the error.
 
 ---
 
