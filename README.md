@@ -2,6 +2,8 @@
 
 Maps flood extent and population exposure from Hurricane Beryl (July 2024) in the Houston/Gulf Coast region, Texas, using Sentinel-1 Synthetic Aperture Radar (SAR) data downloaded from NASA EarthData.
 
+**NOTE:** I originally had a bigger bounding box of (-96.5, 28.8, -94.5, 30.5), however running this on my machine took ~2.5min for the first notebook and ~10min for the second notebook although this gives bigger scope I decided it'd be better to decrease the study area to ensure greater speed. Therefore the bounding box is set to (-96.5, 28.8, -94.5, 30.5) for less accurate but faster data. If you want the more accurate data this should be changed in both notebooks.
+
 ---
 
 ## Notebooks
